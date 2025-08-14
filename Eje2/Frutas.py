@@ -18,7 +18,7 @@ if not os.path.exists('Saves'):
     os.makedirs('Saves')
 
 # Guardar la lista el archivo
-with open('Ejej2/Saves/frutas.txt', 'w') as archivo:
+with open('Eje2/Saves/frutas.txt', 'w') as archivo:
     for fruta in frutas_ordenadas:
         archivo.write(fruta + '\n')
 
